@@ -1,10 +1,3 @@
- """
-Configuration management for Blender AI Automation
-
-This module handles all configuration settings, environment variables,
-and validates the application setup.
-"""
-
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -46,6 +39,13 @@ class Config:
     OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4-turbo-preview")
     LOCAL_LLM_URL = os.getenv("LOCAL_LLM_URL", "http://localhost:11434/api/generate")
     LOCAL_LLM_MODEL = os.getenv("LOCAL_LLM_MODEL", "codellama")
+    LOCAL_LLM_TEMPERATURE = float(os.getenv("LOCAL_LLM_TEMPERATURE", "0.4"))
+    LOCAL_LLM_MAX_TOKENS = int(os.getenv("LOCAL_LLM_MAX_TOKENS", "4000"))
+    LOCAL_LLM_CONTEXT_SIZE = int(os.getenv("LOCAL_LLM_CONTEXT_SIZE", "8192"))
+    LOCAL_LLM_GPU_LAYERS = int(os.getenv("LOCAL_LLM_GPU_LAYERS", "-1"))
+    LOCAL_LLM_BATCH_SIZE = int(os.getenv("LOCAL_LLM_BATCH_SIZE", "512"))
+    LOCAL_LLM_USE_MMAP = os.getenv("LOCAL_LLM_USE_MMAP", "true").lower() == "true"
+    LOCAL_LLM_NUM_THREADS = int(os.getenv("LOCAL_LLM_NUM_THREADS", "0"))
     
     # ==========================================
     # BLENDER CONFIGURATION
@@ -98,11 +98,17 @@ class Config:
         errors = []
         
         # Check API keys based on provider
-        if cls.AI_PROVIDER == "claude" and not cls.ANTHROPIC_API_KEY:
-            errors.append("ANTHROPIC_API_KEY is required when using Claude")
+        if cls.AI_PROVIDER == "claude":
+            if not cls.ANTHROPIC_API_KEY:
+                errors.append("ANTHROPIC_API_KEY is required when AI_PROVIDER=claude")
         
-        if cls.AI_PROVIDER == "openai" and not cls.OPENAI_API_KEY:
-            errors.append("OPENAI_API_KEY is required when using OpenAI")
+        if cls.AI_PROVIDER == "openai":
+            if not cls.OPENAI_API_KEY:
+                errors.append("OPENAI_API_KEY is required when AI_PROVIDER=openai")
+        
+        if cls.AI_PROVIDER == "local":
+            # Validate local LLM URL is accessible (optional check)
+            pass
         
         if cls.AI_PROVIDER not in ["claude", "openai", "local"]:
             errors.append(f"Invalid AI_PROVIDER: {cls.AI_PROVIDER}. Must be 'claude', 'openai', or 'local'")

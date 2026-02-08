@@ -1,14 +1,3 @@
-"""
-Blender AI Automation - Main Entry Point
-
-This is the main application that orchestrates the entire workflow:
-1. Process user prompt
-2. Generate Blender Python code using AI
-3. Validate the code
-4. Execute in Blender
-5. Handle output (render, export, save)
-"""
-
 import sys
 import logging
 from pathlib import Path

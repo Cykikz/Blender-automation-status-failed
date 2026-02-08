@@ -1,0 +1,278 @@
+2026-02-08 19:07:01 - config - INFO - Configuration initialized successfully
+2026-02-08 19:07:01 - config - INFO - AI Provider: local
+2026-02-08 19:07:01 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:07:01 - config - INFO - Default Mode: background
+2026-02-08 19:08:48 - config - INFO - Configuration initialized successfully
+2026-02-08 19:08:48 - config - INFO - AI Provider: local
+2026-02-08 19:08:48 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:08:48 - config - INFO - Default Mode: background
+2026-02-08 19:09:44 - config - INFO - Configuration initialized successfully
+2026-02-08 19:09:44 - config - INFO - AI Provider: local
+2026-02-08 19:09:44 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:09:44 - config - INFO - Default Mode: background
+2026-02-08 19:09:59 - config - INFO - Configuration initialized successfully
+2026-02-08 19:09:59 - config - INFO - AI Provider: local
+2026-02-08 19:09:59 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:09:59 - config - INFO - Default Mode: background
+2026-02-08 19:10:05 - config - INFO - Configuration initialized successfully
+2026-02-08 19:10:05 - config - INFO - AI Provider: local
+2026-02-08 19:10:05 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:10:05 - config - INFO - Default Mode: background
+2026-02-08 19:10:05 - config - INFO - Configuration initialized successfully
+2026-02-08 19:10:05 - config - INFO - AI Provider: local
+2026-02-08 19:10:05 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:10:05 - config - INFO - Default Mode: background
+2026-02-08 19:10:05 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:10:05 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:10:05 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:10:06 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:10:06 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:10:06 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:10:44 - __main__ - INFO - Processing prompt: create a donut and add textures to it
+2026-02-08 19:10:44 - prompt_processor - INFO - Processed prompt - Category: mixed, Complexity: simple
+2026-02-08 19:10:44 - ai_generator - INFO - Generating code with local for: create a donut and add textures to it...
+2026-02-08 19:10:46 - ai_generator - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:10:46 - __main__ - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:10:46 - ai_generator - INFO - Generating code with local for: create a donut and add textures to it...
+2026-02-08 19:10:48 - ai_generator - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:10:48 - __main__ - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:10:48 - ai_generator - INFO - Generating code with local for: create a donut and add textures to it...
+2026-02-08 19:10:50 - ai_generator - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:10:50 - __main__ - ERROR - Code generation failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2026-02-08 19:12:04 - config - INFO - Configuration initialized successfully
+2026-02-08 19:12:04 - config - INFO - AI Provider: local
+2026-02-08 19:12:04 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:12:04 - config - INFO - Default Mode: background
+2026-02-08 19:12:14 - config - INFO - Configuration initialized successfully
+2026-02-08 19:12:14 - config - INFO - AI Provider: local
+2026-02-08 19:12:14 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:12:14 - config - INFO - Default Mode: background
+2026-02-08 19:12:14 - config - INFO - Configuration initialized successfully
+2026-02-08 19:12:14 - config - INFO - AI Provider: local
+2026-02-08 19:12:14 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:12:14 - config - INFO - Default Mode: background
+2026-02-08 19:12:14 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:12:14 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:12:14 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:12:14 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:12:14 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:12:14 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:12:32 - __main__ - INFO - Processing prompt: create a 3d scene with a donut and put textures on the donut
+2026-02-08 19:12:32 - prompt_processor - INFO - Processed prompt - Category: mixed, Complexity: simple
+2026-02-08 19:12:32 - ai_generator - INFO - Generating code with local for: create a 3d scene with a donut and put textures on...
+2026-02-08 19:12:32 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:12:32 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:12:32 - ai_generator - INFO - Generating code with local for: create a 3d scene with a donut and put textures on...
+2026-02-08 19:12:32 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:12:32 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:12:32 - ai_generator - INFO - Generating code with local for: create a 3d scene with a donut and put textures on...
+2026-02-08 19:12:32 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:12:32 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:36 - config - INFO - Configuration initialized successfully
+2026-02-08 19:17:36 - config - INFO - AI Provider: local
+2026-02-08 19:17:36 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:17:36 - config - INFO - Default Mode: background
+2026-02-08 19:17:36 - config - INFO - Configuration initialized successfully
+2026-02-08 19:17:36 - config - INFO - AI Provider: local
+2026-02-08 19:17:36 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:17:36 - config - INFO - Default Mode: background
+2026-02-08 19:17:36 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:17:36 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:17:36 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:17:36 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:17:36 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:17:36 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:17:44 - __main__ - INFO - Processing prompt: create a red cube
+2026-02-08 19:17:44 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:17:44 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:17:44 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:44 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:44 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:17:44 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:44 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:44 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:17:44 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:17:44 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:39 - config - INFO - Configuration initialized successfully
+2026-02-08 19:19:39 - config - INFO - AI Provider: local
+2026-02-08 19:19:39 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:19:39 - config - INFO - Default Mode: background
+2026-02-08 19:19:39 - config - INFO - Configuration initialized successfully
+2026-02-08 19:19:39 - config - INFO - AI Provider: local
+2026-02-08 19:19:39 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:19:39 - config - INFO - Default Mode: background
+2026-02-08 19:19:39 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:19:39 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:19:39 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:19:40 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:19:40 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:19:40 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:19:54 - __main__ - INFO - Processing prompt: create a red cube
+2026-02-08 19:19:54 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:19:54 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:19:54 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:54 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:54 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:19:54 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:54 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:54 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:19:54 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:19:54 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:09 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:09 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:09 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:09 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:09 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:09 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:10 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:10 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:10 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:10 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:10 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:10 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:11 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:11 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:11 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:11 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:11 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:12 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:12 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:12 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:12 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:12 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:12 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - __main__ - INFO - Processing prompt: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Projects,miscellaneous]/Datascience , AI ML Projects/Blenderaiautomation/blender-ai-automation/src/ai_generator.py"
+2026-02-08 19:22:15 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:15 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:15 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:15 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - ai_generator - INFO - Generating code with local for: & E:/Python/python.exe "e:/Cykikkdata/Cykikk[Proje...
+2026-02-08 19:22:15 - ai_generator - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:15 - __main__ - ERROR - Code generation failed: type object 'Config' has no attribute 'LOCAL_LLM_TEMPERATURE'
+2026-02-08 19:22:24 - config - INFO - Configuration initialized successfully
+2026-02-08 19:22:24 - config - INFO - AI Provider: local
+2026-02-08 19:22:24 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:22:24 - config - INFO - Default Mode: background
+2026-02-08 19:22:31 - config - INFO - Configuration initialized successfully
+2026-02-08 19:22:31 - config - INFO - AI Provider: local
+2026-02-08 19:22:31 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:22:31 - config - INFO - Default Mode: background
+2026-02-08 19:22:31 - config - INFO - Configuration initialized successfully
+2026-02-08 19:22:31 - config - INFO - AI Provider: local
+2026-02-08 19:22:31 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:22:31 - config - INFO - Default Mode: background
+2026-02-08 19:22:31 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:22:31 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:22:31 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:22:31 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:22:31 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:22:31 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:22:37 - __main__ - INFO - Processing prompt: create a red cube
+2026-02-08 19:22:37 - prompt_processor - INFO - Processed prompt - Category: modeling, Complexity: simple
+2026-02-08 19:22:37 - ai_generator - INFO - Generating code with local for: create a red cube Use realistic proportions and sc...
+2026-02-08 19:23:05 - ai_generator - INFO - Code generation successful
+2026-02-08 19:23:05 - code_validator - WARNING - Code has 1 warnings
+2026-02-08 19:23:05 - blender_executor - INFO - Executing script in background mode: combined_20260208_192305.py
+2026-02-08 19:31:57 - config - INFO - Configuration initialized successfully
+2026-02-08 19:31:57 - config - INFO - AI Provider: local
+2026-02-08 19:31:57 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:31:57 - config - INFO - Default Mode: gui
+2026-02-08 19:31:57 - config - INFO - Configuration initialized successfully
+2026-02-08 19:31:57 - config - INFO - AI Provider: local
+2026-02-08 19:31:57 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:31:57 - config - INFO - Default Mode: gui
+2026-02-08 19:31:57 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:31:57 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:31:57 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:31:57 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:31:57 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:31:57 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:32:56 - config - INFO - Configuration initialized successfully
+2026-02-08 19:32:56 - config - INFO - AI Provider: local
+2026-02-08 19:32:56 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:32:56 - config - INFO - Default Mode: gui
+2026-02-08 19:33:04 - config - INFO - Configuration initialized successfully
+2026-02-08 19:33:04 - config - INFO - AI Provider: local
+2026-02-08 19:33:04 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:33:04 - config - INFO - Default Mode: gui
+2026-02-08 19:33:27 - config - INFO - Configuration initialized successfully
+2026-02-08 19:33:27 - config - INFO - AI Provider: local
+2026-02-08 19:33:27 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:33:27 - config - INFO - Default Mode: gui
+2026-02-08 19:33:27 - config - INFO - Configuration initialized successfully
+2026-02-08 19:33:27 - config - INFO - AI Provider: local
+2026-02-08 19:33:27 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:33:27 - config - INFO - Default Mode: gui
+2026-02-08 19:33:27 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:33:27 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:33:27 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:33:27 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:33:27 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:33:27 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:35:44 - config - INFO - Configuration initialized successfully
+2026-02-08 19:35:44 - config - INFO - AI Provider: local
+2026-02-08 19:35:44 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:35:44 - config - INFO - Default Mode: gui
+2026-02-08 19:35:44 - config - INFO - Configuration initialized successfully
+2026-02-08 19:35:44 - config - INFO - AI Provider: local
+2026-02-08 19:35:44 - config - INFO - Blender Path: E:\Utilz\Blender\blender.exe
+2026-02-08 19:35:44 - config - INFO - Default Mode: gui
+2026-02-08 19:35:44 - prompt_processor - INFO - Initialized Prompt Processor
+2026-02-08 19:35:44 - ai_generator - INFO - Using local LLM at http://localhost:11434/api/generate
+2026-02-08 19:35:44 - code_validator - INFO - Initialized Code Validator
+2026-02-08 19:35:45 - blender_executor - INFO - Found Blender 5.0.1
+2026-02-08 19:35:45 - blender_executor - INFO - Initialized Blender Executor with: E:\Utilz\Blender\blender.exe
+2026-02-08 19:35:45 - __main__ - INFO - Blender AI Automation initialized successfully
+2026-02-08 19:36:50 - __main__ - INFO - Processing prompt: A single, minimalist ceramic vase sitting on a dark, reflective wooden table. A large area light from the side creates a soft glow and a long shadow. A single wild flower is in the vase, and the background is a simple, out-of-focus concrete wall
+2026-02-08 19:36:50 - prompt_processor - INFO - Processed prompt - Category: scene, Complexity: simple
+2026-02-08 19:36:50 - ai_generator - INFO - Generating code with local for: A single, minimalist ceramic vase sitting on a dar...
+2026-02-08 19:37:57 - ai_generator - INFO - Code generation successful
+2026-02-08 19:37:57 - code_validator - WARNING - Code has 3 warnings
+2026-02-08 19:37:57 - blender_executor - INFO - Executing script in gui mode: combined_20260208_193757.py
+2026-02-08 19:42:57 - blender_executor - ERROR - Script execution timed out after 300 seconds

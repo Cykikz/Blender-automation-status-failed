@@ -1,15 +1,6 @@
- """
-AI Generator Module
-
-Handles interaction with AI providers (Claude, OpenAI, Local LLMs)
-to generate Blender Python code from natural language prompts.
-"""
-
 import logging
 from pathlib import Path
 from typing import Optional, Dict
-import anthropic
-import openai
 import requests
 
 from config import Config
@@ -193,17 +184,33 @@ import bpy
         """Generate code using local LLM (Ollama, etc.)"""
         full_prompt = f"{system_prompt}\n\nUser request: {user_prompt}\n\nGenerate the Python code:"
         
+        # Build payload with enhanced configuration
         payload = {
             "model": Config.LOCAL_LLM_MODEL,
             "prompt": full_prompt,
             "stream": False,
             "options": {
-                "temperature": temperature,
-                "num_predict": max_tokens
+                "temperature": Config.LOCAL_LLM_TEMPERATURE,
+                "num_predict": Config.LOCAL_LLM_MAX_TOKENS,
+                "num_ctx": Config.LOCAL_LLM_CONTEXT_SIZE,
             }
         }
         
-        response = requests.post(Config.LOCAL_LLM_URL, json=payload)
+        # Add optional GPU/CPU settings if configured
+        if hasattr(Config, 'LOCAL_LLM_GPU_LAYERS') and Config.LOCAL_LLM_GPU_LAYERS != 0:
+            payload["options"]["num_gpu"] = Config.LOCAL_LLM_GPU_LAYERS
+        
+        if hasattr(Config, 'LOCAL_LLM_BATCH_SIZE'):
+            payload["options"]["num_batch"] = Config.LOCAL_LLM_BATCH_SIZE
+        
+        if hasattr(Config, 'LOCAL_LLM_NUM_THREADS') and Config.LOCAL_LLM_NUM_THREADS > 0:
+            payload["options"]["num_thread"] = Config.LOCAL_LLM_NUM_THREADS
+        
+        if hasattr(Config, 'LOCAL_LLM_USE_MMAP'):
+            payload["options"]["use_mmap"] = Config.LOCAL_LLM_USE_MMAP
+        
+        # Make request with timeout
+        response = requests.post(Config.LOCAL_LLM_URL, json=payload, timeout=120)
         response.raise_for_status()
         
         return response.json()["response"]

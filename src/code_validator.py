@@ -1,10 +1,3 @@
-"""
-Code Validator Module
-
-Validates generated Python code for syntax errors, security issues,
-and Blender API best practices before execution.
-"""
-
 import ast
 import logging
 import re

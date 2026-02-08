@@ -1,10 +1,3 @@
-"""
-Blender Executor Module
-
-Handles execution of generated Python scripts in Blender.
-Supports both background and GUI modes, with optional rendering and exporting.
-"""
-
 import subprocess
 import logging
 from pathlib import Path
