@@ -1,4 +1,7 @@
- # AI-Powered Blender Automation
+# Failed
+## Can try and play around with it but due to current tech limitations and some problems it's not working great what it does rn --> give prompt ---> generated python script (sucks even claude can't generate good scripts rn) ----> fails to run the script / does some work but ultimately does nothing keepin it here so someone interested can use it and do something with it or maybe I'll do something in future when I can.
+
+# AI-Powered Blender Automation
 
 Automatically generate 3D scenes, objects, and models in Blender from natural language prompts using Claude or other LLMs.
 
